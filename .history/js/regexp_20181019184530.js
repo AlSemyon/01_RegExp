@@ -11,15 +11,3 @@
 // word boundary \b, \B
 
 var st = "Is this This?";
-
-var a = new RegExp('[a-z]+', 'g');
-
-var b = /[a-z]{4}/g;
-
-
-var text = 'sadf 2134 asdf';
-var text1 = 13213;
-
-
-console.log(b.test(text));
-console.log(b.test(text1));
